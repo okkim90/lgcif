@@ -1,0 +1,79 @@
+@import url(reset.css);
+@import url(font.css);
+html, body { min-width: 1200px; }
+
+.header { position: relative; height: 120px; background-image: -webkit-gradient(linear, left top, right top, from(#f9107e), color-stop(19%, #f9107e), color-stop(28%, #b91281), color-stop(36%, #8a1583), color-stop(42%, #6c1685), color-stop(46%, #621786), color-stop(52%, #563497), color-stop(64%, #397fc2), color-stop(74%, #21c0e7), color-stop(93%, #0793c1), color-stop(99%, #0087b7)); background-image: linear-gradient(to right, #f9107e, #f9107e 19%, #b91281 28%, #8a1583 36%, #6c1685 42%, #621786 46%, #563497 52%, #397fc2 64%, #21c0e7 74%, #0793c1 93%, #0087b7 99%); }
+
+.header_inner { height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; width: 1190px; margin: 0 auto; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+#container.main { display: -webkit-box; display: -ms-flexbox; display: flex; width: 100%; height: 100vh; -webkit-box-align: center; -ms-flex-align: center; align-items: center; position: relative; overflow: hidden; }
+
+#container.main .main_logo { position: absolute; right: 60px; top: 50px; width: 158px; z-index: 10; }
+
+#container.main .bg_line { position: absolute; height: 100vh; left: 55%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); min-height: 800px; max-width: none; }
+
+#container.sub { padding: 60px 0; }
+
+.main_cont { position: relative; z-index: 10; width: 808px; text-align: center; }
+
+.main_cont_wrap { width: 1200px; margin: 0 auto; position: relative; }
+
+.main_cont .logo_box { width: 415px; margin: 0 auto; }
+
+.main_cont .main_btns { margin-top: 60px; position: relative; }
+
+.main_cont .main_btns .btns_bg { position: absolute; width: 100%; top: 0; left: 0; }
+
+.main_cont .btn_list { display: -webkit-box; display: -ms-flexbox; display: flex; position: relative; z-index: 10; margin-left: -3.5%; margin-right: -3.5%; }
+
+.main_cont .btn_list .btn_link { display: block; font-size: 20px; line-height: 20px; color: #991F30; font-weight: bold; }
+
+.main_cont .btn_list .btn_link i { display: -webkit-box; display: -ms-flexbox; display: flex; width: 100%; height: 115px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-bottom: 10px; }
+
+.main_cont .btn_list .btn_item { width: 20%; }
+
+.inner { width: 1190px; margin: 0 auto; }
+
+.tbl { width: 100%; margin-left: -1px; }
+
+.tbl_wrap { overflow: hidden; }
+
+.tbl thead th { border-bottom: 2px solid #f9107e; font-size: 18px; line-height: 1.5; height: 60px; color: #A11F31; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.tbl th, .tbl td { padding: 12px 15px; }
+
+.tbl th.taL, .tbl td.taL { text-align: left; }
+
+.tbl td { border-bottom: 1px solid #563497; border-left: 1px solid #563497; text-align: center; font-size: 15px; line-height: 1.5; }
+
+.tbl td .btn_link { display: inline-block; width: 114px; height: 22px; line-height: 22px; color: #fff; background-color: #A11F31; font-size: 13px; text-align: center; font-weight: normal; }
+
+.tabs_bot { margin-top: 40px; }
+
+.tabs_bot .tabs_list { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.tabs_bot .tabs_list li { margin: 0 10px; }
+
+.tabs_bot .tab { display: block; width: 100px; height: 100px; background-repeat: no-repeat; background-position: center center; }
+
+.tabs_bot .tab1 { background-image: url(../../images/tab1.svg); }
+
+.tabs_bot .tab1.on { background-image: url(../../images/tab1_on.svg); }
+
+.tabs_bot .tab2 { background-image: url(../../images/tab2.svg); }
+
+.tabs_bot .tab2.on { background-image: url(../../images/tab2_on.svg); }
+
+.tabs_bot .tab3 { background-image: url(../../images/tab3.svg); }
+
+.tabs_bot .tab3.on { background-image: url(../../images/tab3_on.svg); }
+
+.tabs_bot .tab4 { background-image: url(../../images/tab4.svg); }
+
+.tabs_bot .tab4.on { background-image: url(../../images/tab4_on.svg); }
+
+.tabs_bot .tab5 { background-image: url(../../images/tab5.svg); }
+
+.tabs_bot .tab5.on { background-image: url(../../images/tab5_on.svg); }
+
+.tabs_bot .tab.on { background-size: auto 70%; }
